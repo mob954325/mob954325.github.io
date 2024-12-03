@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    :  "dark" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "-"
+name                     : "AAAA"
 description              : "An amazing website."
 url                      : "https://mob954325.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,8 +113,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "AAAA"
+  avatar           : "/assets/images/87255621.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
@@ -164,7 +164,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - "_pages"
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -190,8 +190,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -309,8 +307,19 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+# ??
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  study:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
+# YAML 타입 DEFAULT?
 defaults:
   # _posts
   - scope:
@@ -323,22 +332,11 @@ defaults:
       comments: # true
       share: true
       related: true
-
-#defaults:
-#  # _pages
-#  - scope:
-#      path: ""
-#      type: pages
-#    values:
-#      layout: single
-#      author_profile: true
-#
-#defaults:
-#  # _portfolio
-#  - scope:
-#      path: ""
-#      type: portfolio
-#    values:
-#      layout: single
-#      author_profile: false
-#      share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
