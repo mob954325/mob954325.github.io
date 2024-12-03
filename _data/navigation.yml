@@ -1,12 +1,11 @@
 # main links
+# https://mob954325.github.io/
 main:
-  - title: Pages
-    url: /_pages/portfolio.html
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "About"
+    url: http://localhost:4000/about/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Study"
+    url: /study/
   # - title: "Sitemap"
   #   url: /sitemap/
