@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "AAAA"
+  name             : "lsh954325"
   avatar           : "/assets/images/87255621.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "게임 클라이언트 개발자 취준생"
+  location         : "대한민국"
+  email            : lsh954325@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
