@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the colleciton  
+포트폴리오 개발 모음 페이지
 
 <!-- # 2024
 
