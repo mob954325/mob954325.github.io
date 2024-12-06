@@ -15,12 +15,12 @@ header:
 24.03.04 - 24.05.29
 
 ## 팀원 소개 및 역할
-이성호 - 팀장 및 게임 시스템
-오나현 - 플레이어 구현
-김하린 - 플레이어의 스킬
-박민우 - 라스트 보스
-배태정 - 일반 몬스터 및 중형 몬스터
-정윤서 - NPC 및 아이템 상호작용, 퀘스트, 상호작용 오브젝트
+이성호 - 팀장 및 게임 시스템  
+오나현 - 플레이어 구현  
+김하린 - 플레이어의 스킬  
+박민우 - 라스트 보스  
+배태정 - 일반 몬스터 및 중형 몬스터  
+정윤서 - NPC 및 아이템 상호작용, 퀘스트, 상호작용 오브젝트  
 
 ## 프로젝트 목표
 1. 플레이어 캐릭터 요소 ( 움직임, 공격, 스태미너 )
@@ -41,7 +41,7 @@ header:
 
 ### 플레이 영상
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=FVopMLPX0kg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FVopMLPX0kg?si=qQqmjA2OBF4vKicW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
 ### 주요 코드
 
