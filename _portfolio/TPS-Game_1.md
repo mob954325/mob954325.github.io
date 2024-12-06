@@ -1,5 +1,5 @@
 ---
-title: Tps-Game-1
+title: 3인칭 슈팅 게임
 header:
     # 문서 해더 이미지
     # image: /assets/images/portfolio/
