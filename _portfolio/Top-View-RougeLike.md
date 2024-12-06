@@ -4,15 +4,15 @@ header:
     # 문서 해더 이미지
     # image: /assets/images/portfolio/
     # 페이지에 표시되는 외부 이미지
-    teaser: /assets/images/portfolio/
+    teaser: /assets/images/portfolio/portfolio_banner_24_06.png 
 ---
 
-로그라이크 시스템 개발하기
+로그라이크 개발 개인 프로젝트
 
 [깃허브](https://github.com/mob954325/TopView_Rougelike)
 
 ## 기간
-개발기간 : 2024.06.03 - 2024.06.29
+2024.06.03 - 2024.06.29
 
 ## 목표
 생성된 맵에서 각 방마다 적을 죽여서 능력치를 올린 후 보스를 잡으면 클리어하는 게임 만들기

@@ -4,7 +4,7 @@ header:
     # 문서 해더 이미지
     # image: /assets/images/portfolio/
     # 페이지에 표시되는 외부 이미지
-    teaser: /assets/images/portfolio/portfolio_banner_24_02.png
+    teaser: /assets/images/portfolio/portfolio_banner_24_03.png
 ---
 
 아텐츠 게임 아카데미에서 진행한 팀 프로젝트
@@ -12,7 +12,7 @@ header:
 [깃허브](https://github.com/mob954325/3DRPG-TeamProject)
 
 ## 기간
-개발기간 : 24.03.04 - 24.05.29
+24.03.04 - 24.05.29
 
 ## 팀원 소개 및 역할
 이성호 - 팀장 및 게임 시스템
