@@ -1,9 +1,79 @@
 ---
 layout: archive
 ---
+<style>
+  /* 그리드 컨테이너 */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 가로 4열 고정 */
+    gap: 16px; /* 항목 간격 */
+    padding: 16px;
+  }
+  
+  /* 각 포트폴리오 항목 */
+  .portfolio-item {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* 이미지 스타일 */
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* 제목 스타일 */
+  .portfolio-item h3 {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;    
+  }
 
+  a {
+    text-decoration-line: none;
+  }
+</style>
+
+<!-- 포폴 목록 표시 -->
+
+<div class="portfolio-grid">
+  {% for portfolio in site.portfolio %}
+  <div class="portfolio-item">
+    <a href="{{ portfolio.url }}">
+      <img src="{{ portfolio.header.teaser | default: '/assets/default-teaser.jpg' }}" alt="{{ portfolio.title | default: '제목 없음' }}" />
+      <h3>{{ portfolio.title | default: '제목 없음' }}</h3>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- 포트폴리오 리스트 표시
+<ul>
+  {% for portfolio in site.portfolio %}
+  <li>
+    <a href="{{ portfolio.url }}">
+      <img src = "{{ portfolio.header.teaser }}" alt = "{{ portfolio.title }}"/>        
+      {{ portfolio.title }}
+    </a>
+  </li>
+  {% endfor %} 
+</ul> -->
+
+
+
+<!-- 최근 포스트 표시
 {{ content }}
-
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -17,4 +87,4 @@ layout: archive
   {% include documents-collection.html entries=posts type=entries_layout %}
 </div>
 
-{% include paginator.html %}
+{% include paginator.html %} -->
